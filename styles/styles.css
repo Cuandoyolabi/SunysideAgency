@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    
+    --Red400: hsl(7, 99%, 70%);
+    --Yellow500: hsl(51, 100%, 49%);
+    --Green800: hsl(167, 40%, 24%);
+    --Blue800:  hsl(156, 62%, 14%);
+    --Green500: hsl(167, 65%, 66%);
+    --Grey950: hsl(212, 27%, 19%);
+    --Grey600: hsl(213, 9%, 39%);
+    --Grey550: hsl(232, 10%, 55%);
+    --Grey400: hsl(210, 4%, 67%);
+    --White: hsl(0, 100%, 100%);
+}
+
+
+.footer{
+    height: 350px;
+    background-color: var(--Green500);
+}
+
+.footerTitle{
+    color: var(--Green800);
+}
