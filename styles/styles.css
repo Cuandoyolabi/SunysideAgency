@@ -5,11 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Fraunces", serif;
 }
 
 :root{
-    
+
     --Red400: hsl(7, 99%, 70%);
     --Yellow500: hsl(51, 100%, 49%);
     --Green800: hsl(167, 40%, 24%);
