@@ -22,6 +22,16 @@
     --White: hsl(0, 100%, 100%);
 }
 
+.header-nav{
+
+    width: 40%;
+    top: 5%;
+    right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
 .header-text{
     font-size: 50px;
@@ -40,6 +50,16 @@
     background-repeat: no-repeat;    
 }
 
+.graphic-color{
+    color: var(--Green800);
+}
+.photography-color{
+    color: var(--Blue800);
+}
+
+.header-hamburguer{
+    cursor: pointer;
+}
 
 .footer{
     height: 350px;
