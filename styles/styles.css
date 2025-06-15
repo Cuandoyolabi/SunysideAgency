@@ -37,6 +37,22 @@
     display: none;
 }
 
+.header-menu{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.btn-menu{
+    background-color:  var(--Yellow500);
+}
+
 .header-text{
     font-size: 50px;
     top: 40%;
@@ -46,8 +62,14 @@
     top: 69%;
 }
 
+.header-hamburguer{
+    top: 7%;
+    right: 10%;
+    cursor: pointer;
+}
+
 .header-container{
-    height: 60vh;
+    height: 70vh;
     background-image: url('/images/mobile/image-header.jpg');
     background-size: cover;
     background-position: center;
@@ -78,6 +100,7 @@
 @media (min-width: 600px){
 
     .header-container{
+        height: 80vh;
         background-image: url('/images/desktop/image-header.jpg');
     }
 
