@@ -25,12 +25,16 @@
 .header-nav{
 
     width: 40%;
-    top: 5%;
-    right: 3%;
-    display: flex;
-    justify-content: space-between;
+    display: none;
+    top: 6%;
+    right: 13%;
+    justify-content: space-around;
     align-items: center;
     
+}
+
+.nav-button{
+    display: none;
 }
 
 .header-text{
@@ -75,6 +79,21 @@
 
     .header-container{
         background-image: url('/images/desktop/image-header.jpg');
+    }
+
+    .header-nav{
+        display: flex;
+    }
+
+    .header-hamburguer{
+        display: none;
+    }
+    .nav-button{
+        display: flex;
+        top: 5%;
+        right: 2%;
+        align-self: flex-start;
+        border-radius: 15px;
     }
 
     .header-text{
