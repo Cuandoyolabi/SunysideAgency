@@ -38,8 +38,8 @@
 }
 
 .header-menu{
-    width: 90%;
-    display: flex;
+    width: 80%;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -48,6 +48,12 @@
     right: 0;
     z-index: 1;
 }
+
+.header-menu.active{
+    display: flex;
+}
+
+
 
 .btn-menu{
     background-color:  var(--Yellow500);
